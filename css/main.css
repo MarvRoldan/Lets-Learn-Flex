@@ -42,3 +42,24 @@
 .item-6 {
     background: #1aa3ff;
 }
+
+/* Tablet. */
+@media screen and ( min-width: 768px ) {
+
+    .item-2,
+    .item-3,
+    .item-5,
+    .item-6 {
+        width: 50%;
+    }
+}
+
+/* Desktop. */
+@media screen and ( min-width: 1200px ) {
+
+    .item-2,
+    .item-3,
+    .item-4 {
+        width: 33.333%
+    }
+}
