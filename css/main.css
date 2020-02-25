@@ -10,9 +10,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
-    color: white;
-    font-size: 30px;
 }
 
 /* Flex Items. */
@@ -63,6 +60,7 @@
     .item-2,
     .item-3,
     .item-4 {
-        width: 33.333%
+        /* We can use the "calc" function in CSS to perform mathematical operations! */
+        width: 33.333% ; /* Can use calc ( 100% / 3 ) */
     }
 }
